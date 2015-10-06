@@ -23,6 +23,7 @@ batch.add({
   headers: {
     'Content-Type': 'application/json'
   },
+  json: true,
   body: {
     "role": "reader",
     "type": "user",
@@ -39,6 +40,7 @@ batch.add({
   headers: {
     'Content-Type': 'application/json'
   },
+  json: true,
   body: {
     "role": "reader",
     "type": "user",

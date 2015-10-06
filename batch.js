@@ -126,9 +126,9 @@ Batch.prototype.send = function(callback) {
   callback = callback || _.noop
 
   async.waterfall([
-    this.authorize,
-    this._send,
-    this.parseResponse
+    this.authorize.bind(this),
+    this._send.bind(this),
+    this.parseResponse.bind(this)
   ], callback)
 }
 

@@ -2,7 +2,7 @@
   "name": "googleapis-batch",
   "version": "1.0.0",
   "description": "Provides a way to run batch requests through Google's APIs",
-  "main": "index.js",
+  "main": "batch.js",
   "scripts": {},
   "repository": {
     "type": "git",

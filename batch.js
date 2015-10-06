@@ -1,10 +1,11 @@
 'use strict'
+var path = require('path')
 var _ = require('lodash')
 var swig = require('swig')
 var async = require('async')
 var googleapis = require('googleapis')
 
-var requestTpl = swig.compileFile(require.resolve('request.swig'))
+var requestTpl = swig.compileFile(path.join(__dirname, '/request.swig'))
 
 var CONTENT_ID_RE = /Content-ID\: response-(.+)/
 var HEADERS_RE = /\n{2}((?:.|\n)+)\n{2}/m

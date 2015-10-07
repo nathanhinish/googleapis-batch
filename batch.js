@@ -27,6 +27,7 @@ Batch.prototype._send = function(authResp, done) {
   var boundary = 'batch_' + Date.now()
 
   var requests = parts.map(function(part, index) {
+    part.headers = part.headers || {}
     if (part.json) {
       part.headers['Content-Type'] = JSON_MIMETYPE
       if (part.body) {

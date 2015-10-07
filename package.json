@@ -1,6 +1,6 @@
 {
   "name": "googleapis-batch",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Provides a way to run batch requests through Google's APIs",
   "main": "batch.js",
   "scripts": {},

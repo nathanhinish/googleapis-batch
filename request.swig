@@ -3,5 +3,5 @@
   {{key}}: {{val}}
 {%- endfor -%}
 {%- if body -%}
-  {{body}}
+  {{body|safe}}
 {%- endif %}

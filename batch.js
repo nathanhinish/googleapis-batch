@@ -51,7 +51,7 @@ Batch.prototype._send = function(authResp, done) {
       bearer: authResp.access_token
     },
     headers: {
-      'Content-type': 'multipart/mixed; boundary="' + boundary + '"'
+      'Content-type': 'multipart/mixed; boundary=' + boundary
     },
     multipart: {
       chunked: false,

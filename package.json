@@ -1,6 +1,6 @@
 {
   "name": "@triad/googleapis-batch",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Provides a way to run batch requests through Google's APIs",
   "main": "index.js",
   "scripts": {},

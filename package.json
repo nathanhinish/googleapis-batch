@@ -2,7 +2,7 @@
   "name": "@triad/googleapis-batch",
   "version": "1.0.8",
   "description": "Provides a way to run batch requests through Google's APIs",
-  "main": "batch.js",
+  "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
   "homepage": "https://github.com/nathanhinish/googleapis-batch#readme",
   "dependencies": {
     "async": "^1.4.2",
-    "googleapis": "^2.1.5",
     "lodash": "^3.10.1",
     "swig": "^1.4.2"
   }

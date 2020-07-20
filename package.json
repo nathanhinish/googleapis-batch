@@ -21,7 +21,7 @@
   "homepage": "https://github.com/nathanhinish/googleapis-batch#readme",
   "dependencies": {
     "async": "^1.4.2",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.19",
     "swig": "^1.4.2"
   }
 }

@@ -22,6 +22,6 @@
   "dependencies": {
     "async": "^1.4.2",
     "lodash": "^4.17.21",
-    "swig": "^1.4.2"
+    "swig": "^2.0.0"
   }
 }

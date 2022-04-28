@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/nathanhinish/googleapis-batch#readme",
   "dependencies": {
-    "async": "^1.4.2",
+    "async": "^2.6.4",
     "debug": "^4.3.3",
     "handlebars": "^4.7.7",
     "lodash": "^4.17.21"
